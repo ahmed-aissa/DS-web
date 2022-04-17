@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercice1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <fieldset class="fond">
+        <legend class="titre">Direction de stages</legend>
+        <table>
+            <tr>
+                <td><label for="nom">Nom : </label></td>
+                <td><input type="text" id="nom" placeholder="Nom"></td>
+            </tr>
+            <tr>
+                <td><label for="prenom">Prenom : </label></td>
+                <td><input type="text" id="prenom" placeholder="Prenom"></td>
+            </tr>
+            <tr>
+                <td><label for="mail">E-mail : </label></td>
+                <td><input type="email" id="mail" placeholder="E-mail"></td>
+            </tr>
+            <tr>
+                <td><label for="tel">Telephone : </label></td>
+                <td><input type="tel" id="tel" placeholder="Telephone"></td>
+            </tr>
+            <tr>
+                <td><label for="adress">Adresse  : </label></td>
+                <td><textarea  id="adress" cols="30" rows="10" placeholder="Adresse"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="">Filiere : </label></td>
+                <td>
+                    <input type="radio" name="filiere"  value="IA"> IA 
+                    <input type="radio" name="filiere"  value="GTE"> GTE
+                </td>
+            </tr>
+            <tr>
+                <td><label for="stage">Stage :</label></td>
+                <td>
+                    <select name="stage" id="stage"  > 
+                        <option value="choix">Votre choix </option>
+                        <option value="intiation" >initiation</option>
+                        <option value="ingenieur">ingenieur </option>
+                    </select>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><label for="debut">Debut de stage  : </label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="fin">Fin de stage  : </label></td>
+                <td><input type="date" id="fin"></td>
+            </tr>
+            <tr>
+                <td><label for="societe">Societe d'acceuil : </label></td>
+                <td><input type="text" name="societe" id="societe" placeholder="Societe"></td>
+            </tr>
+            <tr>
+                <td><label for="academique">Encadrant academique  : </label></td>
+                <td><input type="text" name="academique" id="academique" placeholder="Encadrant 1"></td>
+            </tr>
+            <tr>
+                <td><label for="indus">Encadrant industriel : </label></td>
+                <td><input type="text" name="indus" id="indus" placeholder="Encadrant 2 "></td>
+            </tr>
+            <tr>
+                <td><label for="depot">Date de depot   : </label></td>
+                <td><input type="date" id="depot"></td>
+            </tr>
+            <tr>
+                <td><label for="soutenance">Date de soutenance  : </label></td>
+                <td><input type="date" id="soutenance"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Envoyer" type="submit"></td>
+                <td><input type="button" value="Reinitialiser" type="reset"></td>
+            </tr>
+
+
+        </table>
+    </fieldset>
+    
+
+
+    
+</body>
+</html>
